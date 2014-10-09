@@ -20,7 +20,7 @@ public class SimpleJavaService {
         // Enter below your path to certificate files, to Weemo Auth Server and your credentials
         final String CA_FILE        = "d:\\workspace\\intellij\\kmenzli\\rtcc-exo-extension\\src\\main\\resources\\cert\\authCA.crt";
         final String P12_FILE       = "d:\\workspace\\intellij\\kmenzli\\rtcc-exo-extension\\src\\main\\resources\\cert\\client.p12";
-        final String AUTH_URL       = "https://oauths.weemo.com/auth/";
+        final String AUTH_URL       = "https://auth.rtccloud.net/auth/";
         final String P12_PASS       = "XnyexbUF";
         final String CLIENT_ID      = "c16lmy11mj2ncwlgtvojxhr63fphsh";
         final String CLIENT_SECRET  = "p4ustyfijy9mna0xhl3rxox2hv280x";
@@ -70,7 +70,7 @@ public class SimpleJavaService {
             //String domain = "yourdomain.com";         // group of users
             String domain = "domain2";         // group of usersdomain2
             //String profile = "premium";               // premium profile
-            String profile = "basic";               // premium profile
+            String profile = "standard";               // premium profile
 
             if (uid == null) {
                 System.out.println("No UID found in request");
